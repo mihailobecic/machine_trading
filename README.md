@@ -1,2 +1,2 @@
 # machine_trading
-Using a decision tree, created machine learning algo that trades stocks.
+Basic premise of the algorithm is that the ML algo takes in 5 features, opening, closing, highest, lowest and volume of stock traded and a label, whether the stock is going to go up or down the next day. Using this it is trained, and then applied to the historic data where it decides if the stock is going to rise or fall in price. Then the algorithm takes the result of this data and decides whether to buy, hold or sell the stock. I decided to use SVC instead of logistic regression or Decision Trees simply because it yielded better results in a majority of cases. On average this algorithm performed better than you just holding the stock throughout the same period of time.
